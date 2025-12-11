@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- VSCode ----
+.vscode/
+
+# ---- Data Files ----
+# Raw and processed data should NOT be ignored for your project,
+# because you must submit them for milestone evaluation.
+# If you want to ignore extremely large files, uncomment below:
+# data/raw/*.zip
+# data/processed/*.zip
+
+# ---- System Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Environment / Secrets ----
+.env
+*.env
+
+# ---- Build / Cache ----
+build/
+dist/
+*.egg-info/
+
+# ---- OS Files ----
+Desktop.ini
