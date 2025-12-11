@@ -31,6 +31,7 @@ This submission contains **Milestone 1**, which involves dataset preparation and
 
 ## 📂 Project Structure
 
+```text
 infosys/
 │
 ├── README.md
@@ -38,24 +39,25 @@ infosys/
 ├── requirements.txt
 │
 ├── data/
-│ ├── raw/
-│ │ ├── priority.csv
-│ │ ├── emailclass.csv
-│ │ ├── spam.csv
-│ │
-│ └── processed/
-│ ├── cleaned_priority.csv
-│ ├── cleaned_emailclass.csv
-│ ├── cleaned_spam.csv
+│   ├── raw/
+│   │   ├── priority.csv
+│   │   ├── emailclass.csv
+│   │   ├── spam.csv
+│   │
+│   └── processed/
+│       ├── cleaned_priority.csv
+│       ├── cleaned_emailclass.csv
+│       ├── cleaned_spam.csv
 │
 ├── src/
-│ ├── preprocessing/
-│ │ ├── clean_text.py
-│ │ ├── preprocess_priority.py
-│ │ ├── preprocess_emailclass.py
-│ │ └── preprocess_spam.py
+│   ├── preprocessing/
+│   │   ├── clean_text.py
+│   │   ├── preprocess_priority.py
+│   │   ├── preprocess_emailclass.py
+│   │   └── preprocess_spam.py
 │
-└── venv/ (ignored by .gitignore)
+└── venv/   # ignored by .gitignore
+
 
 yaml
 Copy code
